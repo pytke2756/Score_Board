@@ -4,4 +4,4 @@ class Player:
         self.name = name
     
     def __str__(self):
-        return f"{self.point} - {self.name}"
+        return f"{self.point:6} - {self.name:10}"
