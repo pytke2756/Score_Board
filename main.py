@@ -21,6 +21,9 @@ def main():
                 playerObj = Player(dataLine[0], dataLine[1])
                 playersList.append(playerObj)
 
-    
-
+    name = input("Add meg a nevedet: ")
+    point = int(input("Add meg a pontodat: "))
+    f = open("score.txt", "a", encoding="UTF-8")
+    f.write(DataIn(point, name) + "\n")
+    f.close()
 main()
