@@ -21,12 +21,6 @@ def main():
                 playerObj = Player(dataLine[0], dataLine[1])
                 playersList.append(playerObj)
 
-
-    for i in playersList:
-        print(i)
-    #f = open("score.txt", "a", encoding="UTF-8")
-
-    #f.write(DataIn(1000, "Levente") + "\n")
-    #f.close
+    
 
 main()
